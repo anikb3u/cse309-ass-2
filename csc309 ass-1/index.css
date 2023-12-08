@@ -1,0 +1,73 @@
+body {
+  margin: 20px;
+
+}
+
+h1{
+  
+
+  margin-bottom: 30px;
+ 
+}
+
+.Span{
+  background-color: darkorange;
+}
+
+
+
+
+strong {
+  
+  font-size: 15px;
+   
+}
+
+p{
+  text-align: left;
+  margin-left: 12;
+  padding-left: 40;
+}
+
+
+em{
+font-style: normal;
+}
+
+
+.Slides{
+  background-color:blue;
+  text-decoration-color: rgb(0, 0, 0);
+}
+ 
+
+em{
+  font-style: normal;
+  }
+
+
+.StarterCode{
+  background-color: rgb(255, 0, 76);
+  text-decoration-color: rgb(0, 0, 0);
+}
+
+
+.CheckoffForm{
+  background-color: aqua;
+  text-decoration-color: rgb(0, 0, 0);
+}
+
+
+.Solution{
+  background-color: chocolate;
+  text-decoration-color: rgb(0, 0, 0);
+}
+
+.Span{
+  background-color: darkorange;
+}
+
+
+
+
+ 
