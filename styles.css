@@ -1,0 +1,195 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway", sans-serif;
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+.header {
+  min-height: 60vh;
+  width: 100%;
+  background-image: url(image/banner.png);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  padding: 10px 20px;
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navigation ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 8px 12px;
+  position: relative;
+}
+
+.navigation ul li:nth-child(5) a {
+  border: 2px solid #fff;
+  border-radius: 20px;
+  padding: 8px 16px;
+}
+
+.navigation ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 13px;
+  padding: 8px 12px;
+}
+
+.navigation ul li a:hover {
+  text-decoration: underline;
+}
+
+.navigation ul li::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background: red;
+  display: block;
+  margin: auto;
+  transition: 0.75s;
+}
+
+.navigation ul li:hover::after {
+  width: 100%;
+}
+
+.texts {
+  width: 90%;
+  color: #fff;
+  position: absolute;
+  padding-top: 40px;
+  text-align: center;
+}
+
+.texts p {
+  font-style: italic;
+  font-size: 14px;
+}
+
+.texts h1 {
+  font-size: 50px;
+}
+
+.lm {
+  display: inline-block;
+  text-decoration: none;
+  font-weight: bold;
+  color: #fff;
+  border: 1px black;
+  padding: 10px;
+  font-size: 16px;
+  background-color: red;
+  cursor: pointer;
+}
+
+.randomtext {
+  margin: 10px;
+  width: 90%;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.randomtext h3 {
+  font-size: 30px;
+  font-weight: 600;
+  color: #000000;
+  text-align: center;
+}
+
+.randomtext p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #000000;
+  padding: 10px;
+  text-align: center;
+}
+.randomtext p1 {
+  font-style: italic;
+  color: #000000;
+  text-align: center;
+}
+.randomtext p2 {
+  font-style: italic;
+  color: green;
+  font: bold;
+  font-weight: 700;
+  text-align: center;
+}
+.row {
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pageinfo {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 30px;
+}
+
+.pageinfo-col {
+  flex-basis: 45%;
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 2%;
+}
+
+.pageinfo img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.pageinfo-col p {
+  padding: 2px;
+  text-align: center;
+}
+.pageinfo h3 {
+  color: green;
+}
+
+.icons {
+  background-color: grey;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.icons .fa {
+  padding-right: 20px;
+  margin: 0 14px;
+}
+
+.footer {
+  width: 100%;
+  text-align: center;
+  padding: 20px 0;
+  background-color: rgba(255, 0, 0, 0.952);
+}
+
+.footer h3 {
+  font-weight: 600;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: #fff;
+}
+.footer p {
+  color: #fff;
+}
